@@ -25,7 +25,11 @@ public class JenkinsTestDemo {
 	{
 		Assert.assertEquals(jd.multi(4, 2),8);
 	}
-	
+	@Test
+	public void test5()
+	{
+		System.out.println("this is test 5");
+	}
 	
 
 }
